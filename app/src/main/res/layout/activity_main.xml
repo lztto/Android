@@ -133,13 +133,14 @@
         <Button android:id="@+id/btnBackspace" android:text="⌫"
             android:layout_width="0dp" android:layout_weight="1"
             android:layout_height="80dp" android:textSize="24sp" />
+        <Button android:id="@+id/btnHistory" android:text="📋"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="80dp" android:textSize="24sp"
+            android:gravity="center" />
         <Button android:id="@+id/btnHome" android:text="Home"
             android:layout_width="0dp" android:layout_weight="1"
             android:layout_height="80dp" android:textSize="24sp"
             android:gravity="center" />
-        <Space
-            android:layout_width="0dp" android:layout_weight="1"
-            android:layout_height="80dp" />
     </TableRow>
 
 </TableLayout>
